@@ -1,0 +1,2 @@
+# Clean-Images-Data-With-Filename
+From a directory containing around 10k image files, I had to retrieve images with filename like (Patient Name D.MM.YY_YYYYMMDD_Patient_ID_Color_EyePosition_Some Number) where Eye Position was "L" or "R" representing left or right eye. This Python repository takes all the images from a directory with mentioned filename format and renames them as 01_left, 01_right, 02_left, and so on and moves them in a separate new created directory.
